@@ -20,8 +20,12 @@ _If you wish to run the tutorial, you can use the following commands_
 3. Install NPM packages
    ```sh
    npm install
+4. Install Python dependencies
+   ```sh
+   pip install torch transformers
    ```
-4. Copy `.env-sample` to `.env` and Edit your variables by your setting
+   
+5. Copy `.env-sample` to `.env` and Edit your variables by your setting
    ```js
    MONGODB_URL='ENTER MONGODB URL';
    GPT_MODEL='ENTER CHAT GPT MODEL';
