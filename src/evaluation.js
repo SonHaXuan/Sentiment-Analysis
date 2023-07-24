@@ -22,22 +22,17 @@ const vader = require("vader-sentiment");
 var tweets = [];
 main();
 async function main() {
-  const tweetsString = "";
-
-  const tweetsText = await fs.readFileSync("./dataset/tweets.json", "utf-8");
-  const tweets = JSON.parse(tweetsText);
-
   // initial datasets
-  // await Promise.all([getTweetsByDate(), getBertContents()]);
+  await Promise.all([getTweetsByDate(), getBertContents()]);
 
   // generate reports
   await Promise.all([
-    // gptReport(),
-    // gptReport2()
-    // bertReport(),
-    // bertReport2(),
-    // vaderReport(),
-    // vaderReport2(),
+    gptReport(),
+    gptReport2(),
+    bertReport(),
+    bertReport2(),
+    vaderReport(),
+    vaderReport2(),
   ]);
 
   console.log("DONE");
