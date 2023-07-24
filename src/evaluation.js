@@ -195,7 +195,7 @@ async function gptReport2() {
 }
 
 async function bertReport() {
-  execSync(`python ${path.join(__dirname, "../modules/bert/main.py")}`);
+  execSync(`python3 ${path.join(__dirname, "../modules/bert/main.py")}`);
 
   const resultText = await fs.readFileSync(
     "./temp/tweets-bert-predict.json",
@@ -239,7 +239,7 @@ async function bertReport() {
 }
 
 async function bertReport2() {
-  execSync(`python ${path.join(__dirname, "../modules/bert/main2.py")}`);
+  execSync(`python3 ${path.join(__dirname, "../modules/bert/main2.py")}`);
 
   const resultText = await fs.readFileSync(
     "./temp/tweets-bert-predict-2.json",
