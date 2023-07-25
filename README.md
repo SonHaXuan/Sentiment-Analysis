@@ -22,7 +22,7 @@ _If you wish to run the tutorial, you can use the following commands_
    npm install
 4. Install Python dependencies
    ```sh
-   pip install torch transformers
+   pip3 install torch transformers
    ```
    
 5. Copy `.env-sample` to `.env` and Edit your variables by your setting
@@ -30,7 +30,6 @@ _If you wish to run the tutorial, you can use the following commands_
    MONGODB_URL='ENTER MONGODB URL';
    GPT_MODEL='ENTER CHAT GPT MODEL';
    OPENAI_API_KEY='ENTER OPEN API KEY';
-   ...
    ```
 ### Create collections for mongodb
 Create `tweets` collection and use the files in <a href="https://github.com/SonHaXuan/Sentiment-Analysis/tree/main/dataset" target="_blank">/dataset</a> folder to import data to MongoDB
