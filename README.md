@@ -32,7 +32,7 @@ _If you wish to run the tutorial, you can use the following commands_
    OPENAI_API_KEY='ENTER OPEN API KEY';
    ```
 ### Create collections for mongodb
-Create `tweets` collection and use the files in <a href="https://github.com/SonHaXuan/Sentiment-Analysis/tree/main/dataset" target="_blank">/dataset</a> folder to import data to MongoDB
+Create `tweets` collection and use the file in <a href="https://drive.google.com/file/d/1yIGlgdbvqH9_KLafd1S0bS1RdAR0KhZe/view" target="_blank">this link</a> to import data to MongoDB
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
