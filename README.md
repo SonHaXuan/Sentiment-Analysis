@@ -31,7 +31,7 @@ _If you wish to run the tutorial, you can use the following commands_
    GPT_MODEL='ENTER CHAT GPT MODEL';
    OPENAI_API_KEY='ENTER OPEN API KEY';
    ```
-### Create collections for mongodb
+### Prepare dataset
 Create `tweets` collection and use the file in <a href="https://drive.google.com/file/d/1yIGlgdbvqH9_KLafd1S0bS1RdAR0KhZe/view" target="_blank">this link</a> to import data to MongoDB
 
 <p align="right">(<a href="#top">back to top</a>)</p>
